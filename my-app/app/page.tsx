@@ -4,10 +4,8 @@ import Image from "next/image";
 export default function Home() {
   return (
     <div>
-      <p className="font-medium bg-pink-500">Hello world</p>
-      <Button variant="outline">
-        Click me
-      </Button>
+      <Button variant="outline">Click me</Button>
+      <p className="font-medium bg-slate-500">Helo world!</p>
     </div>
   );
 }
