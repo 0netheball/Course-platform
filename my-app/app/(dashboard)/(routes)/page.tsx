@@ -1,11 +1,11 @@
-import { Button } from "@/components/ui/button";
-import Image from "next/image";
+import { UserButton } from "@clerk/nextjs";
 
 export default function Home() {
   return (
-    <div>
-      <Button variant="outline">Click me</Button>
-      <p className="font-medium bg-slate-500 text-red-700">Helo world!</p>
+    <div className="p-4">
+      {/* <UserButton afterSign>
+        
+      </UserButton> */}
     </div>
   );
 }
